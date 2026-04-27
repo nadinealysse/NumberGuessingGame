@@ -36,5 +36,5 @@ else:
     sys.exit()
 
 computer_choice = random.randint(1, 100)
-print(computer_choice)
+
 guess_number(chances, computer_choice)
